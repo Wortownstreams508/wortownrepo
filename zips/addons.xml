@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.wortownstreams" name="Wortownstreams Wizard" version="1.0.2" provider-name="Wortownstreams">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Wortownstreams Wizard</summary>
+    <description lang="en">Wortownstreams Wizard allows you to get access to the latest Wortownstreams Custom Builds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+    <addon id="repository.wortownstreams" name="[COLOR blue]Wortown Repo[/COLOR]" version="1.3.0" provider-name="Wortownstreams">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR blue]Wortown Repo[/COLOR]">
+            <info compressed="false">https://raw.githubusercontent.com/Wortownstreams508/wortownrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Wortownstreams508/wortownrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Wortownstreams508/wortownrepo/master/zips/</datadir>
+            <hashes>false</hashes>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The Official Repo for Wortownstreams</summary>
+            <description>The Official Repo for Wortownstreams</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
+</addons>
