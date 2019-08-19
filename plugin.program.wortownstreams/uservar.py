@@ -12,7 +12,7 @@ ART            = os.path.join(PATH, 'resources', 'art')
 #########################################################
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = 'Wortownstreams Wizard'
-BUILDERNAME    = 'Kodiskills'
+BUILDERNAME    = 'Wortownstreams'
 EXCLUDES       = [ADDON_ID, 'repository.wortownstreams']
 # Enable/Disable the text file caching with 'Yes' or 'No' and age being how often it rechecks in minutes
 CACHETEXT      = 'Yes'
@@ -23,7 +23,7 @@ BUILDFILE      = 'http://www.wortownstreams.com/wizard/texts/builds.txt'
 # 0 being every startup of kodi
 UPDATECHECK    = 2
 # Text File with apk info in it.  Leave as 'http://' to ignore
-APKFILE        = 'http://www.wortownstreams.com/apks/'
+APKFILE        = 'http://'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE   = ''
 YOUTUBEFILE    = 'http://'
@@ -91,7 +91,7 @@ CONTACTFANART  = 'http://www.wortownstreams.com/wizard/images/fanart'
 # Enable Auto Update 'Yes' or 'No'
 AUTOUPDATE     = 'No'
 # Url to wizard version
-WIZARDFILE     = 'http://www.wortownstreams.com/wizard/texts/builds.txt'
+WIZARDFILE     = BUILDFILE
 #########################################################
 
 #########################################################
@@ -103,9 +103,9 @@ AUTOINSTALL    = 'Yes'
 # Addon ID for the repository
 REPOID         = 'repository.wortownstreams'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML   = 'https://raw.githubusercontent.com/kodiskills/repository.wortownstreams/master/zips/addons.xml'
+REPOADDONXML   = 'https://raw.githubusercontent.com/Wortownstreams508/wortownrepo/master/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL     = 'https://raw.githubusercontent.com/kodiskills/repository.wortownstreams/master/zips/repository.wortownstreams/'
+REPOZIPURL     = 'https://raw.githubusercontent.com/Wortownstreams508/wortownrepo/master/zips/repository.wortownstreams/'
 #########################################################
 
 #########################################################
